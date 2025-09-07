@@ -2,10 +2,10 @@
 # Course: IT1114/Section W01
 # Student Name: Jessica Scales
 # Assignment Number: Lab 1
-# Due Date: 09/05/20X25
+# Due Date: 09/05/2025
 # Purpose:
-#   Simple text-based menu program that allows the user to
-#   append text to a buffer, clear it, display it, or exit.
+# Simple text-based menu program that allows the user to
+# append text to a buffer, clear it, display it, or exit.
 # Resources: Class lectures.
 
 # start with an empty buffer
@@ -14,7 +14,7 @@ buffer = ""
 # variable to store the user's menu choice
 choice = ""
 
-# keep showing menu until the user chooses option 4
+# keep showing the menu until the user chooses option 4
 while choice != "4":
     print("\n--- Menu ---")
     print("1. Append to buffer")
@@ -37,4 +37,5 @@ while choice != "4":
     elif choice == "4":
         # end program
         print("Goodbye!")
+
 
