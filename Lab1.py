@@ -6,7 +6,7 @@
 # Purpose:
 #   Simple text-based menu program that allows the user to
 #   append text to a buffer, clear it, display it, or exit.
-# Resources: Written by student after class lectures.
+# Resources: Class lectures.
 
 # start with an empty buffer
 buffer = ""
@@ -37,3 +37,4 @@ while choice != "4":
     elif choice == "4":
         # end program
         print("Goodbye!")
+
